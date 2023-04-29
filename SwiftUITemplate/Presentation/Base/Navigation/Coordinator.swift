@@ -83,6 +83,7 @@ extension Coordinator {
     public func navigate(
         to view: some View,
         with navigationStyle: NavigationStyle,
+        andTitle title: String? = nil,
         animated: Bool = true,
         resetingStack: Bool = false,
         completion: (() -> Void)? = nil
@@ -90,6 +91,7 @@ extension Coordinator {
         
         let viewWithCoordinator = view.environmentObject(self)
         let viewController = UIHostingController(rootView: viewWithCoordinator)
+        viewController.title = title
         navigate(
             to: viewController,
             with: navigationStyle,

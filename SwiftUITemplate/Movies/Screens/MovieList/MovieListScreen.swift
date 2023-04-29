@@ -7,102 +7,31 @@
 
 import SwiftUI
 
-///**
-//    # Navigation Action
-//    Each navigation action navigates to a view with specific transition style
-// */
-//protocol Action {
-//
-//    associatedtype V: View
-//    var transition: NavigationStyle { get }
-//
-//    /// Creates and returns a view of assosiated type
-//    ///
-//    @ViewBuilder
-//    func view() -> V
-//}
-//
-//struct GoToMovieListAction: Action {
-//    typealias V = MovieListScreen
-//    var transition: NavigationStyle = .push
-//
-//    func view() -> MovieListScreen {
-//        return MovieListScreen()
-//    }
-//}
-//struct GoToDetailsAction: Action {
-//    typealias V = MovieDetailsScreen
-//    var transition: NavigationStyle = .push
-//    var isActive: Bool
-//
-//    @ViewBuilder
-//    func view() -> V {
-//        MovieDetailsScreen(isActive: isActive)
-//    }
-//}
-//struct GoToFavoritesAction: Action {
-//    typealias V = FavoriteMoviesScreen
-//    var transition: NavigationStyle = .push
-//    var isActive: Bool
-//
-//    func view() -> V {
-//        return FavoriteMoviesScreen(isActive: isActive)
-//    }
-//}
-
-
-
-//class TestCoordinator: Coordinator, ObservableObject {
-//    @Published var navigationStack = [any Action]()
-//    weak var parentCoordinator: (any Coordinator)?
-//
-//    init(parentCoordinator: Coordinator) {
-//        self.parentCoordinator = parentCoordinator
-//    }
-//
-//}
-//
-//struct NavigationController: View {
-//    @State private var selection: String? = nil
-//
-//
-//    var body: some View {
-//        NavigationView {
-//            VStack {
-//                NavigationLink(
-//                    tag: GoToMovieListAction.self,
-//                    selection: $selection,
-//                    destination: <#T##() -> Destination#>, label: <#T##() -> Label#>)
-//            }
-//        }
-//    }
-//}
-
 struct MovieListScreen: View {
     
-    @State private var isShowingDetails = false
+    @StateObject var viewModel: MovieListViewModel
     
     var body: some View {
                         
-        NavigationView {
-            VStack (spacing: 30) {
-                NavigationLink(
-                    "Go to the Details",
-                    isActive: $isShowingDetails
-                ) {
-                    MovieDetailsScreen()
-                }
-                
-                Button("toggle is isShowingDetails") {
-                    isShowingDetails.toggle()
-                }
-            }//.navigationTitle("Landing Page")
-        }.navigationViewStyle(.stack)
+        List {
+            ForEach(viewModel.state.moviesList) { item in
+                MovieItem(movie: item, handler: { movie in
+                    viewModel.onTriggerEvent(event: .goToDetails(movie: item))
+                })
+            }
+        }.onAppear(perform: populateData)
+    }
+    
+    func populateData() {
+        viewModel.onTriggerEvent(event: .fetchMovies)
     }
 }
 
 struct MovieListScreen_Previews: PreviewProvider {
     static var previews: some View {
-        MovieListScreen()
+        
+        MovieListScreen(
+            viewModel: MovieListViewModel(actionHandler: nil)
+        )
     }
 }

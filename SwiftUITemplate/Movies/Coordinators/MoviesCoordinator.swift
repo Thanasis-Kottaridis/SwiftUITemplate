@@ -9,7 +9,7 @@ import UIKit
 
 // MARK: - Actions
 struct GoToMoviesLanding: Action {}
-struct GoToMoviesDetails: Action {}
+struct GoToMoviesDetails: Action { let movie: Movie }
 
 class MoviesCoordinator: Coordinator {
     var parentCoordinator: (any Coordinator)?
@@ -23,8 +23,9 @@ class MoviesCoordinator: Coordinator {
         doStart: Bool = true
     ) {
         self.navigationController = UINavigationController()
-        self.navigationController.isNavigationBarHidden = true
-        self.navigationController.navigationBar.topItem?.title = "Movies"
+        self.navigationController.interactivePopGestureRecognizer?.isEnabled = true
+        self.navigationController.isNavigationBarHidden = false
+        self.navigationController.navigationBar.prefersLargeTitles = true
         
         if doStart {
             start()
@@ -32,10 +33,8 @@ class MoviesCoordinator: Coordinator {
     }
     
     func start() {
-        navigate(to: MovieListScreen(), with: .push)
+        handleAction(action: GoToMoviesLanding())
     }
-    
-    
 }
 
 // MARK: - Handle Actions
@@ -43,9 +42,15 @@ extension MoviesCoordinator {
     public func handleAction(action: Action) {
         switch action {
         case _ as GoToMoviesLanding:
-            navigate(to: MovieListScreen(), with: .push)
+            let viewModel = MovieListViewModel(actionHandler: self)
+            let screen = MovieListScreen(viewModel: viewModel)
+            navigate(to: screen, with: .push, andTitle: "Movies")
         case let action as GoToMoviesDetails:
-            navigate(to: MovieListScreen(), with: .push)
+            navigate(
+                to: MovieDetailsScreen(movie: action.movie),
+                with: .push,
+                andTitle: action.movie.name ?? "Details"
+            )
         default:
             // Use super implementation of BaseActionHandler
             handleBaseAction(action: action)

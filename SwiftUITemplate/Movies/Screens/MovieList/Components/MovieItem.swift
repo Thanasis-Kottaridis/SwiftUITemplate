@@ -1,31 +1,34 @@
 //
-//  MovieDetailsScreen.swift
+//  MovieItem.swift
 //  SwiftUITemplate
 //
-//  Created by thanos kottaridis on 29/4/23.
+//  Created by thanos kottaridis on 30/4/23.
 //
 
 import SwiftUI
 
-struct MovieDetailsScreen: View {
-
+struct MovieItem: View {
+    
     let movie: Movie
+    let handler: (Movie) -> Void
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text(movie.summary ?? "unkonown")
-                .padding()
+        VStack(alignment: .leading, spacing: 16) {
+            Text(movie.name ?? "unknown")
+        
+            Text(movie.summary ?? "unknown")
+                .lineLimit(4)
             
-            
-            Spacer()
         }
+        .padding(.all, 16)
+        .onTapGesture { handler(movie) }
     }
 }
 
-
-struct MovieDetailsScreen_Previews: PreviewProvider {
+struct MovieItem_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetailsScreen(
+        
+        MovieItem(
             movie: Movie(
                 id: 1,
                 url: "url_1",
@@ -35,7 +38,6 @@ struct MovieDetailsScreen_Previews: PreviewProvider {
                 genres: ["a","b","c"],
                 image: nil,
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem."
-            )
-        )
+            )) { movie in }
     }
 }

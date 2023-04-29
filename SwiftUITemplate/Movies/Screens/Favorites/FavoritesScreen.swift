@@ -11,10 +11,10 @@ import SwiftUI
 struct FavoritesScreen: View {
 
     var body: some View {
-        VStack{
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
             Text("Hello, FavoritesScreen!")
                 .padding()
             

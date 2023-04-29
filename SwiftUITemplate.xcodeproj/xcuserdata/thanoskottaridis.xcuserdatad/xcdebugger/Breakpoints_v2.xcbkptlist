@@ -7,47 +7,95 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9018A5F0-D061-480B-AD04-977B455D2825"
+            uuid = "87B14948-23E8-4F1E-B976-D83F513A80FA"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftUITemplate/Movies/Screens/MovieList/MovieListScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "populateData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D92EF5D4-81AA-447F-BFE7-79AD0FC9D63C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUITemplate/Movies/Screens/MovieList/MovieListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "onTriggerEvent(event:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDF39F1A-B1E9-40DD-8567-A0AE5DCCCB87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUITemplate/Movies/Screens/MovieList/MovieListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "fetchMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD0151E2-5730-4DA1-8D2C-88EAB8F28E25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUITemplate/Movies/Screens/MovieList/Components/MovieItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "9018A5F0-D061-480B-AD04-977B455D2825 - 4f6a00ee16d98424"
+                  uuid = "CD0151E2-5730-4DA1-8D2C-88EAB8F28E25 - d30dd87790015d3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwiftUITemplate.MovieListScreen.body.getter : some"
+                  symbolName = "SwiftUITemplate.MovieItem.body.getter : some"
                   moduleName = "SwiftUITemplate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thanoskottaridis/Coding/cognity/ios_projects/SwiftUITemplate/SwiftUITemplate/Movies/Screens/MovieList/MovieListScreen.swift"
+                  urlString = "file:///Users/thanoskottaridis/Coding/cognity/ios_projects/SwiftUITemplate/SwiftUITemplate/Movies/Screens/MovieList/Components/MovieItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "100"
-                  endingLineNumber = "100"
-                  offsetFromSymbolStart = "399">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1163">
                </Location>
                <Location
-                  uuid = "9018A5F0-D061-480B-AD04-977B455D2825 - 2b9fa44438f4ea1f"
+                  uuid = "CD0151E2-5730-4DA1-8D2C-88EAB8F28E25 - 453157d5c0177ae0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;SwiftUI.Text, SwiftUITemplate.MovieDetailsScreen&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt; in SwiftUITemplate.MovieListScreen.body.getter : some"
+                  symbolName = "closure #2 () -&gt; () in SwiftUITemplate.MovieItem.body.getter : some"
                   moduleName = "SwiftUITemplate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/thanoskottaridis/Coding/cognity/ios_projects/SwiftUITemplate/SwiftUITemplate/Movies/Screens/MovieList/MovieListScreen.swift"
+                  urlString = "file:///Users/thanoskottaridis/Coding/cognity/ios_projects/SwiftUITemplate/SwiftUITemplate/Movies/Screens/MovieList/Components/MovieItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "100"
-                  endingLineNumber = "100"
-                  offsetFromSymbolStart = "370">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "79">
                </Location>
             </Locations>
          </BreakpointContent>
