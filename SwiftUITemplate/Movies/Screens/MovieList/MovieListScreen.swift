@@ -7,48 +7,48 @@
 
 import SwiftUI
 
-/**
-    # Navigation Action
-    Each navigation action navigates to a view with specific transition style
- */
-protocol Action {
-
-    associatedtype V: View
-    var transition: NavigationStyle { get }
-    
-    /// Creates and returns a view of assosiated type
-    ///
-    @ViewBuilder
-    func view() -> V
-}
-
-struct GoToMovieListAction: Action {
-    typealias V = MovieListScreen
-    var transition: NavigationStyle = .push
-    
-    func view() -> MovieListScreen {
-        return MovieListScreen()
-    }
-}
-struct GoToDetailsAction: Action {
-    typealias V = MovieDetailsScreen
-    var transition: NavigationStyle = .push
-    var isActive: Bool
-    
-    @ViewBuilder
-    func view() -> V {
-        MovieDetailsScreen(isActive: isActive)
-    }
-}
-struct GoToFavoritesAction: Action {
-    typealias V = FavoriteMoviesScreen
-    var transition: NavigationStyle = .push
-    var isActive: Bool
-    
-    func view() -> V {
-        return FavoriteMoviesScreen(isActive: isActive)
-    }
-}
+///**
+//    # Navigation Action
+//    Each navigation action navigates to a view with specific transition style
+// */
+//protocol Action {
+//
+//    associatedtype V: View
+//    var transition: NavigationStyle { get }
+//
+//    /// Creates and returns a view of assosiated type
+//    ///
+//    @ViewBuilder
+//    func view() -> V
+//}
+//
+//struct GoToMovieListAction: Action {
+//    typealias V = MovieListScreen
+//    var transition: NavigationStyle = .push
+//
+//    func view() -> MovieListScreen {
+//        return MovieListScreen()
+//    }
+//}
+//struct GoToDetailsAction: Action {
+//    typealias V = MovieDetailsScreen
+//    var transition: NavigationStyle = .push
+//    var isActive: Bool
+//
+//    @ViewBuilder
+//    func view() -> V {
+//        MovieDetailsScreen(isActive: isActive)
+//    }
+//}
+//struct GoToFavoritesAction: Action {
+//    typealias V = FavoriteMoviesScreen
+//    var transition: NavigationStyle = .push
+//    var isActive: Bool
+//
+//    func view() -> V {
+//        return FavoriteMoviesScreen(isActive: isActive)
+//    }
+//}
 
 
 
@@ -90,7 +90,7 @@ struct MovieListScreen: View {
                     "Go to the Details",
                     isActive: $isShowingDetails
                 ) {
-                    MovieDetailsScreen(isActive: isShowingDetails)
+                    MovieDetailsScreen()
                 }
                 
                 Button("toggle is isShowingDetails") {
@@ -105,41 +105,4 @@ struct MovieListScreen_Previews: PreviewProvider {
     static var previews: some View {
         MovieListScreen()
     }
-}
-
-
-struct MovieDetailsScreen: View {
-
-    var isActive: Bool
-
-    var body: some View {
-        VStack{
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, MovieDetailsScreen!")
-                .padding()
-            
-            Button("toggle is isActive") {
-//                isActive.toggle()
-            }
-        }
-    }
-    
-}
-
-struct FavoriteMoviesScreen: View {
-
-    var isActive: Bool
-
-    var body: some View {
-        VStack{
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, FavoriteMoviesScreen!")
-                .padding()
-        }
-    }
-    
 }
