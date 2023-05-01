@@ -1,0 +1,16 @@
+PODS:
+  - BonMot (6.1.2)
+
+DEPENDENCIES:
+  - BonMot
+
+SPEC REPOS:
+  trunk:
+    - BonMot
+
+SPEC CHECKSUMS:
+  BonMot: d2920df6476104efc5e379abdb834cbf475c81ab
+
+PODFILE CHECKSUM: 86b86af3a80b9322346ef26c4377dd0beafa3f70
+
+COCOAPODS: 1.12.1

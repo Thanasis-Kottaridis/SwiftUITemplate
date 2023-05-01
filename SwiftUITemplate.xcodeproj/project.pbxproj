@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0533DBCC705235B7A5ED22E4 /* Pods_SwiftUITemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251C27A6CCABCCB8F8D420D6 /* Pods_SwiftUITemplateTests.framework */; };
+		52FCE9F214A5D3EBB9E5230B /* Pods_SwiftUITemplate_SwiftUITemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD9496FFB9E641880E9C16D /* Pods_SwiftUITemplate_SwiftUITemplateUITests.framework */; };
+		A6BA939949F76AD8E1668C09 /* Pods_SwiftUITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531319BD1B20934E929247C4 /* Pods_SwiftUITemplate.framework */; };
+		AE03789A29FEDEC900854F39 /* ColorPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE03789929FEDEC900854F39 /* ColorPallet.swift */; };
+		AE0378B429FEE18700854F39 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0378B229FEE18700854F39 /* Font.swift */; };
+		AE0378B529FEE18700854F39 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0378B329FEE18700854F39 /* TextStyle.swift */; };
+		AE0378B929FEFDF900854F39 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A529FEE16300854F39 /* Mulish-SemiBold.ttf */; };
+		AE0378BA29FEFDF900854F39 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A629FEE16300854F39 /* Mulish-SemiBoldItalic.ttf */; };
+		AE0378BB29FEFDF900854F39 /* Mulish-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378AC29FEE16300854F39 /* Mulish-MediumItalic.ttf */; };
+		AE0378BC29FEFDF900854F39 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378AB29FEE16300854F39 /* Mulish-Black.ttf */; };
+		AE0378BD29FEFDF900854F39 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A429FEE16300854F39 /* Mulish-Light.ttf */; };
+		AE0378BE29FEFDF900854F39 /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A329FEE16300854F39 /* Mulish-Italic.ttf */; };
+		AE0378BF29FEFDF900854F39 /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A229FEE16300854F39 /* Mulish-ExtraLightItalic.ttf */; };
+		AE0378C029FEFDF900854F39 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A129FEE16300854F39 /* Mulish-BoldItalic.ttf */; };
+		AE0378C129FEFDF900854F39 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378B029FEE16300854F39 /* Mulish-LightItalic.ttf */; };
+		AE0378C229FEFDF900854F39 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378AA29FEE16300854F39 /* Mulish-Regular.ttf */; };
+		AE0378C329FEFDF900854F39 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A729FEE16300854F39 /* Mulish-Bold.ttf */; };
+		AE0378C429FEFDF900854F39 /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378AF29FEE16300854F39 /* Mulish-ExtraBoldItalic.ttf */; };
+		AE0378C529FEFDF900854F39 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A929FEE16300854F39 /* Mulish-ExtraLight.ttf */; };
+		AE0378C629FEFDF900854F39 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378AD29FEE16300854F39 /* Mulish-Medium.ttf */; };
+		AE0378C729FEFDF900854F39 /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378A829FEE16300854F39 /* Mulish-BlackItalic.ttf */; };
+		AE0378C829FEFDF900854F39 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0378AE29FEE16300854F39 /* Mulish-ExtraBold.ttf */; };
+		AE0378D229FFA42E00854F39 /* AdaptedConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0378D129FFA42E00854F39 /* AdaptedConstraint.swift */; };
 		AE3C2EB729DCB3B400686B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C2EB629DCB3B400686B66 /* AppDelegate.swift */; };
 		AE3C2EB929DCB3B400686B66 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C2EB829DCB3B400686B66 /* MovieListScreen.swift */; };
 		AE3C2EBB29DCB3B800686B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3C2EBA29DCB3B800686B66 /* Assets.xcassets */; };
@@ -48,6 +71,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041FFDA72E3729F8DBE343BC /* Pods-SwiftUITemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUITemplate.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUITemplate/Pods-SwiftUITemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		1DBD797FECA3B1DD66239899 /* Pods-SwiftUITemplate-SwiftUITemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUITemplate-SwiftUITemplateUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUITemplate-SwiftUITemplateUITests/Pods-SwiftUITemplate-SwiftUITemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		251C27A6CCABCCB8F8D420D6 /* Pods_SwiftUITemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUITemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD9496FFB9E641880E9C16D /* Pods_SwiftUITemplate_SwiftUITemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUITemplate_SwiftUITemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531319BD1B20934E929247C4 /* Pods_SwiftUITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BCD0607BA5B52FFEF3C257 /* Pods-SwiftUITemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUITemplate.release.xcconfig"; path = "Target Support Files/Pods-SwiftUITemplate/Pods-SwiftUITemplate.release.xcconfig"; sourceTree = "<group>"; };
+		955083FBB8A54A9F5D5360C1 /* Pods-SwiftUITemplate-SwiftUITemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUITemplate-SwiftUITemplateUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUITemplate-SwiftUITemplateUITests/Pods-SwiftUITemplate-SwiftUITemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE03789929FEDEC900854F39 /* ColorPallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallet.swift; sourceTree = "<group>"; };
+		AE0378A129FEE16300854F39 /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AE0378A229FEE16300854F39 /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		AE0378A329FEE16300854F39 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Italic.ttf"; sourceTree = "<group>"; };
+		AE0378A429FEE16300854F39 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Light.ttf"; sourceTree = "<group>"; };
+		AE0378A529FEE16300854F39 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		AE0378A629FEE16300854F39 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		AE0378A729FEE16300854F39 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		AE0378A829FEE16300854F39 /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AE0378A929FEE16300854F39 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AE0378AA29FEE16300854F39 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		AE0378AB29FEE16300854F39 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
+		AE0378AC29FEE16300854F39 /* Mulish-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AE0378AD29FEE16300854F39 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		AE0378AE29FEE16300854F39 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AE0378AF29FEE16300854F39 /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		AE0378B029FEE16300854F39 /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-LightItalic.ttf"; sourceTree = "<group>"; };
+		AE0378B229FEE18700854F39 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		AE0378B329FEE18700854F39 /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		AE0378B829FEFBC000854F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AE0378D129FFA42E00854F39 /* AdaptedConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedConstraint.swift; sourceTree = "<group>"; };
 		AE3C2EB329DCB3B400686B66 /* SwiftUITemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3C2EB629DCB3B400686B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3C2EB829DCB3B400686B66 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
@@ -72,6 +123,8 @@
 		AED01EC429F72E9600C343FF /* UINavigationController_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController_Ext.swift; sourceTree = "<group>"; };
 		AED01ED229F7365300C343FF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		AED01ED429F7389800C343FF /* MoviesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
+		C94DD293EBEA153C3F4AF323 /* Pods-SwiftUITemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUITemplateTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUITemplateTests/Pods-SwiftUITemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1E2137BFBE141E3146F9495 /* Pods-SwiftUITemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUITemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUITemplateTests/Pods-SwiftUITemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BA939949F76AD8E1668C09 /* Pods_SwiftUITemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0533DBCC705235B7A5ED22E4 /* Pods_SwiftUITemplateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +148,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FCE9F214A5D3EBB9E5230B /* Pods_SwiftUITemplate_SwiftUITemplateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE06424BE10FD2391E38D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				531319BD1B20934E929247C4 /* Pods_SwiftUITemplate.framework */,
+				3AD9496FFB9E641880E9C16D /* Pods_SwiftUITemplate_SwiftUITemplateUITests.framework */,
+				251C27A6CCABCCB8F8D420D6 /* Pods_SwiftUITemplateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE03789829FEDEAB00854F39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE03789929FEDEC900854F39 /* ColorPallet.swift */,
+				AE0378A029FEE14E00854F39 /* Font */,
+				AE0378B129FEE16F00854F39 /* Typography */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE0378A029FEE14E00854F39 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AE0378AB29FEE16300854F39 /* Mulish-Black.ttf */,
+				AE0378A829FEE16300854F39 /* Mulish-BlackItalic.ttf */,
+				AE0378A729FEE16300854F39 /* Mulish-Bold.ttf */,
+				AE0378A129FEE16300854F39 /* Mulish-BoldItalic.ttf */,
+				AE0378AE29FEE16300854F39 /* Mulish-ExtraBold.ttf */,
+				AE0378AF29FEE16300854F39 /* Mulish-ExtraBoldItalic.ttf */,
+				AE0378A929FEE16300854F39 /* Mulish-ExtraLight.ttf */,
+				AE0378A229FEE16300854F39 /* Mulish-ExtraLightItalic.ttf */,
+				AE0378A329FEE16300854F39 /* Mulish-Italic.ttf */,
+				AE0378A429FEE16300854F39 /* Mulish-Light.ttf */,
+				AE0378B029FEE16300854F39 /* Mulish-LightItalic.ttf */,
+				AE0378AD29FEE16300854F39 /* Mulish-Medium.ttf */,
+				AE0378AC29FEE16300854F39 /* Mulish-MediumItalic.ttf */,
+				AE0378AA29FEE16300854F39 /* Mulish-Regular.ttf */,
+				AE0378A529FEE16300854F39 /* Mulish-SemiBold.ttf */,
+				AE0378A629FEE16300854F39 /* Mulish-SemiBoldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		AE0378B129FEE16F00854F39 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				AE0378B229FEE18700854F39 /* Font.swift */,
+				AE0378B329FEE18700854F39 /* TextStyle.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		AE0378D029FFA41F00854F39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AE0378D129FFA42E00854F39 /* AdaptedConstraint.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		AE3C2EAA29DCB3B300686B66 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +222,8 @@
 				AE3C2EC629DCB3B800686B66 /* SwiftUITemplateTests */,
 				AE3C2ED029DCB3B800686B66 /* SwiftUITemplateUITests */,
 				AE3C2EB429DCB3B400686B66 /* Products */,
+				F267AA173EC883FB37D023B3 /* Pods */,
+				5DE06424BE10FD2391E38D82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +245,7 @@
 				AED01EBE29F7265700C343FF /* Presentation */,
 				AED01EC829F7347700C343FF /* Movies */,
 				AE3C2EBA29DCB3B800686B66 /* Assets.xcassets */,
+				AE0378B829FEFBC000854F39 /* Info.plist */,
 				AE3C2EBC29DCB3B800686B66 /* Preview Content */,
 			);
 			path = SwiftUITemplate;
@@ -227,6 +346,7 @@
 			children = (
 				AED01EC129F72E4600C343FF /* Base */,
 				AED01EC229F72E5F00C343FF /* Utils */,
+				AE03789829FEDEAB00854F39 /* Resources */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -242,6 +362,7 @@
 		AED01EC229F72E5F00C343FF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AE0378D029FFA41F00854F39 /* Helpers */,
 				AED01EC329F72E6E00C343FF /* Extensions */,
 			);
 			path = Utils;
@@ -313,6 +434,19 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		F267AA173EC883FB37D023B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				041FFDA72E3729F8DBE343BC /* Pods-SwiftUITemplate.debug.xcconfig */,
+				85BCD0607BA5B52FFEF3C257 /* Pods-SwiftUITemplate.release.xcconfig */,
+				955083FBB8A54A9F5D5360C1 /* Pods-SwiftUITemplate-SwiftUITemplateUITests.debug.xcconfig */,
+				1DBD797FECA3B1DD66239899 /* Pods-SwiftUITemplate-SwiftUITemplateUITests.release.xcconfig */,
+				D1E2137BFBE141E3146F9495 /* Pods-SwiftUITemplateTests.debug.xcconfig */,
+				C94DD293EBEA153C3F4AF323 /* Pods-SwiftUITemplateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -320,9 +454,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3C2ED729DCB3B800686B66 /* Build configuration list for PBXNativeTarget "SwiftUITemplate" */;
 			buildPhases = (
+				88F375E9A3614C62D452BEAF /* [CP] Check Pods Manifest.lock */,
 				AE3C2EAF29DCB3B300686B66 /* Sources */,
 				AE3C2EB029DCB3B300686B66 /* Frameworks */,
 				AE3C2EB129DCB3B300686B66 /* Resources */,
+				A3440A43C56B50BC997E64F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +473,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3C2EDA29DCB3B800686B66 /* Build configuration list for PBXNativeTarget "SwiftUITemplateTests" */;
 			buildPhases = (
+				2B642AA930F00A0B343F0E57 /* [CP] Check Pods Manifest.lock */,
 				AE3C2EBF29DCB3B800686B66 /* Sources */,
 				AE3C2EC029DCB3B800686B66 /* Frameworks */,
 				AE3C2EC129DCB3B800686B66 /* Resources */,
@@ -355,9 +492,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3C2EDD29DCB3B800686B66 /* Build configuration list for PBXNativeTarget "SwiftUITemplateUITests" */;
 			buildPhases = (
+				13D2C14CC20EDEA1CD3719C4 /* [CP] Check Pods Manifest.lock */,
 				AE3C2EC929DCB3B800686B66 /* Sources */,
 				AE3C2ECA29DCB3B800686B66 /* Frameworks */,
 				AE3C2ECB29DCB3B800686B66 /* Resources */,
+				F8C1C03866DA755D398085BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -417,8 +556,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0378B929FEFDF900854F39 /* Mulish-SemiBold.ttf in Resources */,
+				AE0378BD29FEFDF900854F39 /* Mulish-Light.ttf in Resources */,
+				AE0378BE29FEFDF900854F39 /* Mulish-Italic.ttf in Resources */,
+				AE0378C229FEFDF900854F39 /* Mulish-Regular.ttf in Resources */,
+				AE0378C429FEFDF900854F39 /* Mulish-ExtraBoldItalic.ttf in Resources */,
+				AE0378BA29FEFDF900854F39 /* Mulish-SemiBoldItalic.ttf in Resources */,
+				AE0378C329FEFDF900854F39 /* Mulish-Bold.ttf in Resources */,
+				AE0378BF29FEFDF900854F39 /* Mulish-ExtraLightItalic.ttf in Resources */,
 				AE3C2EBE29DCB3B800686B66 /* Preview Assets.xcassets in Resources */,
+				AE0378C129FEFDF900854F39 /* Mulish-LightItalic.ttf in Resources */,
+				AE0378C829FEFDF900854F39 /* Mulish-ExtraBold.ttf in Resources */,
+				AE0378BB29FEFDF900854F39 /* Mulish-MediumItalic.ttf in Resources */,
+				AE0378BC29FEFDF900854F39 /* Mulish-Black.ttf in Resources */,
+				AE0378C529FEFDF900854F39 /* Mulish-ExtraLight.ttf in Resources */,
+				AE0378C629FEFDF900854F39 /* Mulish-Medium.ttf in Resources */,
 				AE3C2EBB29DCB3B800686B66 /* Assets.xcassets in Resources */,
+				AE0378C029FEFDF900854F39 /* Mulish-BoldItalic.ttf in Resources */,
+				AE0378C729FEFDF900854F39 /* Mulish-BlackItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +593,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13D2C14CC20EDEA1CD3719C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUITemplate-SwiftUITemplateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B642AA930F00A0B343F0E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUITemplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F375E9A3614C62D452BEAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUITemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3440A43C56B50BC997E64F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUITemplate/Pods-SwiftUITemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUITemplate/Pods-SwiftUITemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUITemplate/Pods-SwiftUITemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C1C03866DA755D398085BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUITemplate-SwiftUITemplateUITests/Pods-SwiftUITemplate-SwiftUITemplateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUITemplate-SwiftUITemplateUITests/Pods-SwiftUITemplate-SwiftUITemplateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUITemplate-SwiftUITemplateUITests/Pods-SwiftUITemplate-SwiftUITemplateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE3C2EAF29DCB3B300686B66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -450,13 +708,17 @@
 				AED01EC529F72E9600C343FF /* UINavigationController_Ext.swift in Sources */,
 				AED01ED529F7389800C343FF /* MoviesCoordinator.swift in Sources */,
 				AE4AB48329FDD41300DEFB9D /* SwiftUIView_Ext.swift in Sources */,
+				AE03789A29FEDEC900854F39 /* ColorPallet.swift in Sources */,
 				AE4AB47E29FDAF4F00DEFB9D /* MovieListEvents.swift in Sources */,
 				AE4AB46E29FD9B7200DEFB9D /* MovieDetailsScreen.swift in Sources */,
+				AE0378D229FFA42E00854F39 /* AdaptedConstraint.swift in Sources */,
 				AED01ED329F7365300C343FF /* MainCoordinator.swift in Sources */,
 				AE4AB47329FDA9B300DEFB9D /* MovieListViewModel.swift in Sources */,
 				AE4AB47629FDAC4B00DEFB9D /* MovieListState.swift in Sources */,
 				AE4AB47129FD9BB200DEFB9D /* FavoritesScreen.swift in Sources */,
+				AE0378B429FEE18700854F39 /* Font.swift in Sources */,
 				AE4AB47C29FDAE2400DEFB9D /* Movie.swift in Sources */,
+				AE0378B529FEE18700854F39 /* TextStyle.swift in Sources */,
 				AED01EC029F72A9900C343FF /* Coordinator.swift in Sources */,
 				AE4AB46129FD965600DEFB9D /* CoordinatorKey.swift in Sources */,
 			);
@@ -611,6 +873,7 @@
 		};
 		AE3C2ED829DCB3B800686B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041FFDA72E3729F8DBE343BC /* Pods-SwiftUITemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -620,6 +883,7 @@
 				DEVELOPMENT_TEAM = G94U5AA7BY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -644,6 +908,7 @@
 		};
 		AE3C2ED929DCB3B800686B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BCD0607BA5B52FFEF3C257 /* Pods-SwiftUITemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -653,6 +918,7 @@
 				DEVELOPMENT_TEAM = G94U5AA7BY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -677,6 +943,7 @@
 		};
 		AE3C2EDB29DCB3B800686B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E2137BFBE141E3146F9495 /* Pods-SwiftUITemplateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -697,6 +964,7 @@
 		};
 		AE3C2EDC29DCB3B800686B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94DD293EBEA153C3F4AF323 /* Pods-SwiftUITemplateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -717,6 +985,7 @@
 		};
 		AE3C2EDE29DCB3B800686B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955083FBB8A54A9F5D5360C1 /* Pods-SwiftUITemplate-SwiftUITemplateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -735,6 +1004,7 @@
 		};
 		AE3C2EDF29DCB3B800686B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBD797FECA3B1DD66239899 /* Pods-SwiftUITemplate-SwiftUITemplateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

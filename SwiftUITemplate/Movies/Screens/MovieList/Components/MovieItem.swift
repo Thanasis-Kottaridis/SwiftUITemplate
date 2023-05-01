@@ -13,14 +13,22 @@ struct MovieItem: View {
     let handler: (Movie) -> Void
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 16.adapted()) {
             Text(movie.name ?? "unknown")
+                .modifier(CustomTextStyle(style: .style_20_28(
+                    weight: .BOLD,
+                    color: .LightBlue
+                )))
         
             Text(movie.summary ?? "unknown")
+                .modifier(CustomTextStyle(style: .style_16_20(
+                    weight: .REGULAR,
+                    color: .LightBlue
+                )))
                 .lineLimit(4)
             
         }
-        .padding(.all, 16)
+        .padding(.all, 16.adapted())
         .onTapGesture { handler(movie) }
     }
 }
